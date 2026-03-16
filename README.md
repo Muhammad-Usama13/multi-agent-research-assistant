@@ -51,11 +51,11 @@ User Input (Topic Query  /  PDF Upload)
                 │
                 ▼
       ┌─── LangGraph Pipeline ────────────────────────────┐
-      │                                                    │
+      │                                                   │
       │  [Reader] → [Summarizer] → [Explainer]            │
       │              → [Critic] → [Report Generator]      │
-      │                                                    │
-      └────────────────────────────────────────────────────┘
+      │                                                   │
+      └───────────────────────────────────────────────────┘
                 │
                 ▼
         Structured JSON Response
